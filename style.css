@@ -5,23 +5,23 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.aaa {
+.matrix-example {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.aaa img {
+.matrix-example img {
     width: 100%;
 }
 
-.aaa .more-inf {
+.matrix-example .more-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-    .aaa {
+    .matrix-example {
         text-align: center;
     }
 }
