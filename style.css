@@ -2,7 +2,7 @@
 body {
     background-color: #f8f8f8;
     color: #333;
-    font-family: Lato, sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 .matrix-example {
@@ -17,7 +17,7 @@ body {
 }
 
 .matrix-example .more-inf {
-    font-family: fantasy, cursive;
+    font-family: "fantasy", cursive;
 }
 
 @media (max-width:768px) {
@@ -35,7 +35,7 @@ body {
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -44,7 +44,7 @@ body {
 
 ul {
     margin: 0;
-    padding: 0px;
+    padding: 0;
 }
 
 li,
@@ -63,7 +63,7 @@ button {
     color: #888;
     font-size: 15px;
     width: 60px;
-    font-family: Lato, sans-serif;
+    font-family: "Lato", sans-serif;
     cursor: pointer;
 }
 
@@ -92,7 +92,7 @@ input[type="text"] {
     border: 1px solid #ddd;
     background: #fff;
     border-radius: 6px;
-    font-family: Lato, sans-serif;
+    font-family: "Lato", sans-serif;
     color: #888;
 }
 
@@ -137,7 +137,7 @@ li>label {
 }
 
 li>input[type="text"] {
-    width: 226px
+    width: 226px;
 }
 
 button.delete img {
@@ -152,17 +152,18 @@ button.delete img:hover {
 
 /* Completed */
 ul#completed-tasks label {
-    text-decoration: line-through color: #888;
+    text-decoration: line-through;
+    color: #888;
 }
 
 /* Edit Task */
 ul li input[type=text] {
-    display: none
+    display: none;
 }
 
 ul li.editMode input[type=text] {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 ul li.editMode label {
